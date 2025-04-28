@@ -80,7 +80,7 @@ const TestimonialSection = () => {
                       <Star key={i} className="h-5 w-5 text-muted-foreground" />
                     ))}
                 </div>
-                <p className="mb-4 italic">"{testimonial.content}"</p>
+                <p className="mb-4 italic">&quot;{testimonial.content}&quot;</p>
                 <div className="flex items-center gap-4">
                   <div className="h-10 w-10 rounded-full bg-violet-100 flex items-center justify-center">
                     <span className="text-violet-700 font-medium">
