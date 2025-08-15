@@ -14,17 +14,18 @@ export default function LandingPage() {
       {/* Hero Section */}
       <HeroSection />
 
-      {/* Features Section */}
-      <FeatureSection />
+      {/* Features Section 
+      <FeatureSection /> */}
 
       {/* How It Works */}
       <WorkingSection />
 
-      {/* Testimonials */}
-      <TestimonialSection />
-
       {/* Pricing */}
       <PricingSection />
+
+      {/* Testimonials 
+      <TestimonialSection />*/}
+
 
       {/* FAQ */}
       <FaqSection />

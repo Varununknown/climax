@@ -6,9 +6,9 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AppName - The Smart App for Modern Life",
+  title: "Climax",
   description:
-    "Simplify your daily routine with our intuitive app. Designed to boost productivity and enhance your lifestyle.",
+    "Introducting the Brand new ... Climax, ott platfrorm with an exaiting feature",
 };
 
 export default function RootLayout({ children }) {

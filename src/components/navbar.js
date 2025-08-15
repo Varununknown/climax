@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <Smartphone className="h-7 w-7 text-violet-600" />
           <span className="text-xl font-bold text-neutral-600">
-            App<span className="text-violet-600">Nest</span>
+            Cli<span className="text-violet-600">max</span>
           </span>
         </div>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
             variant="ghost"
             className="hidden md:flex cursor-pointer px-5 py-2 hover:bg-gray-100 text-base"
           >
-            Log in
+            Web
           </Button>
           <Button
             size="sm"
@@ -79,8 +79,8 @@ const Navbar = () => {
         <div className="flex flex-col gap-4 p-6">
           {[
             { href: "#features", label: "Features" },
-            { href: "#how-it-works", label: "How It Works" },
-            { href: "#testimonials", label: "Testimonials" },
+            { href: "#how-it-works", label: "Across Platforms" },
+    
             { href: "#pricing", label: "Pricing" },
             { href: "#faq", label: "FAQ" },
           ].map((item) => (
@@ -99,10 +99,10 @@ const Navbar = () => {
               variant="ghost"
               className="w-full cursor-pointer bg-gray-100 hover:bg-gray-200 text-base"
             >
-              Log in
+              Web (login through desktop)
             </Button>
             <Button className="w-full bg-violet-600 hover:bg-violet-700 text-white text-base">
-              Download
+              Download through main
             </Button>
           </div>
         </div>
