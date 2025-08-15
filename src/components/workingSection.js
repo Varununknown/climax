@@ -14,14 +14,16 @@ const WorkingSection = () => {
           <Badge className="mb-4 bg-violet-100 text-violet-700 hover:bg-violet-100">
             Across Platforms
           </Badge>
-        </div>  {/*
+        </div>
+        {/* 
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Simple to Use, Powerful Results
           </h2>
           <p className="mt-4 text-muted-foreground text-lg max-w-[700px] mx-auto">
             Our app is designed to be intuitive and easy to use, while providing
             powerful features.
-          </p> */}
+          </p> 
+        */}
         <Tabs defaultValue="mobile" className="max-w-4xl mx-auto">
           <TabsList className="grid w-full grid-cols-2 mb-4 bg-[#F4F4F5] h-12">
             <TabsTrigger
@@ -30,7 +32,7 @@ const WorkingSection = () => {
             >
               Mobile App
             </TabsTrigger>
-            
+
             <TabsTrigger
               value="web"
               className="data-[state=active]:bg-white cursor-pointer"
@@ -50,14 +52,14 @@ const WorkingSection = () => {
                             Android Users:
                           </h3>
                           <p className="text-muted-foreground">
-                          Click Download Anyway - Since displaying "harm file" is default on Android  so just install.`
+                            Click Download Anyway - Since displaying &quot;harm file&quot; is default on Android, just install.
                           </p>
-                          <br></br>
+                          <br />
                           <h3 className="text-xl font-bold mb-2">
                             IOS Users:
                           </h3>
                           <p className="text-muted-foreground">
-                            Since ios blocks all downloads from unknown source like browser or websites other than Appstore, we kindly request to use oue WEB Version.
+                            Since iOS blocks all downloads from unknown sources like browsers or websites other than App Store, we kindly request to use our WEB Version.
                           </p>
                         </div>
                       </div>
@@ -72,7 +74,6 @@ const WorkingSection = () => {
                           ? "/img2.jpg"
                           : "/img4.jpg"
                       }
-                      
                       width={400}
                       height={300}
                       alt={`${platform} screenshot`}
