@@ -33,7 +33,7 @@ const HeroSection = () => {
                       // Trigger download
                       const link = document.createElement("a");
                       link.href = "/Climax.apk";
-                      link.download = "climax.apk";
+                      link.download = "Climax.apk";
                       link.click();
 
                       // Show inline feedback
