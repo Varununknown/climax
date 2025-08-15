@@ -25,22 +25,44 @@ const HeroSection = () => {
             </Badge>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
              {/* Android Download Button */}
-                <a href="/climax.apk" download>
+                <div className="flex flex-col items-center">
                   <Button
                     size="lg"
                     className="w-64 bg-gradient-to-r from-[#3DDC84] to-[#2C9B6A] hover:from-[#2C9B6A] hover:to-[#1F7A4C] text-white font-bold px-9 py-6 rounded-2xl flex items-center justify-center gap-4 shadow-2xl transform hover:scale-105 transition-all duration-300"
+                    onClick={() => {
+                      // Trigger download
+                      const link = document.createElement("a");
+                      link.href = "/climax.apk";
+                      link.download = "climax.apk";
+                      link.click();
+
+                      // Show inline feedback
+                      const messageDiv = document.getElementById("download-message");
+                      if (messageDiv) {
+                        messageDiv.innerText = "Download started! Check downloads if doesn't appear.";
+                        setTimeout(() => {
+                          messageDiv.innerText = "";
+                        }, 3000);
+                      }
+                    }}
                   >
+                    {/* Optional SVG icon */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"
-                      className="w-8 h-8 flex-shrink-0"
+                      className="w-6 h-6 flex-shrink-0"
                       fill="currentColor"
                     >
-                      <path d="M256 0c-48.5 0-88 39.5-88 88v80h-56c-22.1 0-40 17.9-40 40v224c0 22.1 17.9 40 40 40h56v80c0 48.5 39.5 88 88 88s88-39.5 88-88v-80h56c22.1 0 40-17.9 40-40V208c0-22.1-17.9-40-40-40h-56V88c0-48.5-39.5-88-88-88zm0 40c26.5 0 48 21.5 48 48v80H208V88c0-26.5 21.5-48 48-48zm-96 176h192v224H160V216zm96 256c-26.5 0-48-21.5-48-48v-48h96v48c0 26.5-21.5 48-48 48zm-96-288h192v-16H160v16z"/>
+                      <path d="M256 0c-48.5 0-88 39.5-88 88v80h-56c-22.1 0-40 17.9-40 40v224c0 22.1 17.9 40 40 40h56v80c0 48.5 39.5 88 88 88s88-39.5 88-88v-80h56c22.1 0 40-17.9 40-40V208c0-22.1-17.9-40-40-40h-56V88c0-48.5-39.5-88-88-88zm0 40c26.5 0 48 21.5 48 48v80H208V88c0-26.5 21.5-48 48-48zm-96 176h192v224H160V216zm96 256c-26.5 0-48-21.5-48-48v-48h96v48c0 26.5-21.5 48-48 48zm-96-288h192v-16H160v16z" />
                     </svg>
                     Download for Android
                   </Button>
-                </a>
+
+                  {/* Inline message */}
+                  <div id="download-message" className="mt-2 text-sm text-green-700 font-medium"></div>
+                </div>
+
+
 
                 {/* iOS Download Button */}
                 <a href="https://apps.apple.com/app/your-app-id" target="_blank" rel="noopener noreferrer">
