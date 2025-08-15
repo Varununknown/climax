@@ -32,7 +32,7 @@ const HeroSection = () => {
                     onClick={() => {
                       // Trigger download
                       const link = document.createElement("a");
-                      link.href = "/Climax.apk";
+                      link.href = "https://pub-95bb0d4ac3014d6082cbcd99b03f24c5.r2.dev/Climax.apk";
                       link.download = "Climax.apk";
                       link.click();
 
