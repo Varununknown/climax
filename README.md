@@ -8,14 +8,18 @@ Download our Mobile App
 Welcome to Climax, a groundbreaking OTT platform that’s changing the way you watch and pay for content. With a unique Pay-Upon-Climax model, Climax offers an immersive, user-centric experience where you only pay when you’re about to experience the most thrilling part of the content.
 
 ## 🚀 What is Climax?
-Climax is a next-generation video streaming platform designed for smart viewers who want to maximize their entertainment experience without paying for boring or unengaging content. Forget subscription fatigue or paying upfront for something that doesn’t live up to expectations. With Climax, you pay only when the climax is about to unfold.
+Climax is a next-generation video streaming platform designed for smart viewers who want to maximize their entertainment experience without paying for boring or unengaging content.
+Forget subscription fatigue or paying upfront for something that doesn’t live up to expectations. With Climax, you pay only when the climax is about to unfold.
 
 ## Web : 🔗https://watchclimax.vercel.app
 
 # 🎬 How It Works
 Enjoy the Content: Start watching a movie, show, or series on Climax.
+
 Discover the Climax: When the most intense or exciting moment approaches, the paywall is triggered.
+
 Decide to Pay: You have the option to pay only for that thrilling moment, unlocking access to the climax and finishing the content.
+
 With this simple yet powerful model, you control your entertainment budget and ensure you're getting your money's worth every time.
 
 💡 Key Features
@@ -30,8 +34,11 @@ By tracking which moments trigger the paywall, Climax provides creators with dee
 
 🌟 Why Choose Climax?
 Flexible Payment Options: Pay only for what you enjoy, removing the risk of buying into content that may not deliver.
+
 Enhanced User Experience: With Climax, you’re no longer tied to lengthy subscriptions or bulk purchases. Unlock content at your own pace.
+
 Discover New Content: Enjoy exploring a wide variety of shows and movies, knowing that you won’t waste money on content you don’t love.
+
 Exclusive Climax Moments: Get access to the most exciting parts of a story, whether it’s a shocking plot twist, an epic battle, or an emotional payoff.
 
 # 🌍 Vision and Future of Climax
