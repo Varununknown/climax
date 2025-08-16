@@ -45,8 +45,5 @@ Exclusive Climax Moments: Get access to the most exciting parts of a story, whet
 Climax aims to revolutionize the OTT industry by providing a more flexible and user-friendly approach to content consumption. Our goal is to create a platform that values quality over quantity, where the viewer’s satisfaction is paramount. We’re on a mission to ensure that entertainment remains accessible, exciting, and perfectly tailored to each individual’s tastes.
 
 🚀 Join Us on This Journey!
-## Code is on
-https://github.com/Varununknown/climax-frontend
-
-https://github.com/Varununknown/climax-backend
+Contact (for code or queries) : unknownwebtech@gmail.com
 
