@@ -1,7 +1,6 @@
 # Climax - App Download Page
 
 Download our Mobile App 
-## 🔗https://downloadclimax.vercel.app
 
 ## Climax - The Future of OTT Content Consumption
 
@@ -11,7 +10,7 @@ Welcome to Climax, a groundbreaking OTT platform that’s changing the way you w
 Climax is a next-generation video streaming platform designed for smart viewers who want to maximize their entertainment experience without paying for boring or unengaging content.
 Forget subscription fatigue or paying upfront for something that doesn’t live up to expectations. With Climax, you pay only when the climax is about to unfold.
 
-## Web : 🔗https://watchclimax.vercel.app
+## Web : 🔗https://climaxott.vercel.app
 
 # 🎬 How It Works
 Enjoy the Content: Start watching a movie, show, or series on Climax.
